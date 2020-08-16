@@ -13,7 +13,7 @@ function Header() {
                 <img width="54" src="/img/lime-white.svg" alt="" />
 
                 <span className="font-semibold text-xl tracking-tight pl-4">
-                    <Link to="/">The Probability</Link>
+                    <Link to="/">Peluang Ku</Link>
                 </span>
             </div>
             <div className="block lg:hidden">

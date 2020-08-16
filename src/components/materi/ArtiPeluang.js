@@ -2,7 +2,7 @@ import React from 'react'
 
 import PaperTest from '../../assets/img/paper-test.jpg'
 
-const ApaItuPeluang = () => {
+const ArtiPeluang = () => {
     return (
         <div className="w-full rounded p-4 lg:border border-teal-600">
             <div className="bg-teal-700 text-white text-lg font-medium p-3 mb-6 rounded-md" >
@@ -44,4 +44,4 @@ const ApaItuPeluang = () => {
     )
 }
 
-export default ApaItuPeluang
+export default ArtiPeluang

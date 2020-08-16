@@ -1,7 +1,9 @@
 import React from 'react'
 import Sejarah from './materi/Sejarah'
 import { Switch, Route } from 'react-router-dom'
-import ApaItuPeluang from './materi/ApaItuPeluang'
+import ArtiPeluang from './materi/ArtiPeluang'
+import RuangSampel from './materi/RuangSampel'
+import Kejadian from './materi/Kejadian'
 
 const Materi = () => {
     return (
@@ -10,7 +12,9 @@ const Materi = () => {
                 <div className="flex flex-wrap items-start justify-between">
                     <Switch>
                         <Route path="/materi/sejarah" component={Sejarah} />
-                        <Route path="/materi/arti-peluang" component={ApaItuPeluang} />
+                        <Route path="/materi/arti-peluang" component={ArtiPeluang} />
+                        <Route path="/materi/ruang-sampel" component={RuangSampel} />
+                        <Route path="/materi/kejadian" component={Kejadian} />
                     </Switch>
                 </div>
             </div>
