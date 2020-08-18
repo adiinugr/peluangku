@@ -7,12 +7,12 @@ import '../styles/tailwind.css';
 function Header() {
     return (
         <div
-            className="flex items-center w-full h-20 justify-between flex-wrap bg-teal-600 p-6 fixed"
+            className="flex items-center w-full h-20 justify-between flex-wrap bg-myColor-second p-6 fixed"
         >
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img width="54" src="/img/lime-white.svg" alt="" />
 
-                <span className="font-semibold text-xl tracking-tight pl-4">
+                <span className="font-semibold text-xl tracking-tight pl-4 text-gray-100">
                     <Link to="/">Peluang Ku</Link>
                 </span>
             </div>
@@ -35,16 +35,16 @@ function Header() {
                 id="dropdown"
                 className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden"
             >
-                <div className="text-md lg:flex-grow">
+                <div className="text-md lg:flex-grow text-gray-100">
                     <Link
                         to="/panduan"
-                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                        className="block mt-4 lg:inline-block lg:mt-0 mr-4"
                     >
                         Panduan
                     </Link>
                     <Link
                         to="/tentang"
-                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                        className="block mt-4 lg:inline-block lg:mt-0 mr-4"
                     >
                         Tentang
                     </Link>

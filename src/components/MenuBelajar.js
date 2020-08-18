@@ -6,8 +6,8 @@ import '../styles/tailwind.css'
 
 import MenuCard from './MenuCard'
 
-import medicine from '../assets/img/medicine.svg'
-import fitness from '../assets/img/fitness.svg'
+import bookLover from '../assets/svg/book_lover.svg'
+import toDoList from '../assets/svg/to_do_list.svg'
 
 
 
@@ -19,20 +19,20 @@ function MenuBelajar() {
                 <MenuCard
                     title="Yuk Pelajari Materinya!"
                     desc="Kamu bisa pelajari materi tentang peluang terlebih dahulu. Setelah itu baru dilanjutkan dengan uji kemampuan."
-                    img={medicine}
+                    img={bookLover}
                     btn="Belajar"
                     link="/materi/sejarah"
                 />
                 <MenuCard
                     title="Aku Udah Jago Nih!"
                     desc="Saatnya menguji kemampuanmu dengan mini quiz yang berisi soal tentang peluang."
-                    img={fitness}
+                    img={toDoList}
                     btn="Uji Kemampuan"
-                    link="quiz"
+                    link="/quiz"
                 />
                 <div className="flex justify-center w-full">
                     <Link to="/">
-                        <button className="btn py-3 px-6 text-xs m-6"><ArrowBackIcon fontSize="small" /> BACK</button>
+                        <button className="btn py-3 px-6 text-xs m-6 bg-transparent text-myColor-second border border-myColor-second"><ArrowBackIcon fontSize="small" /> BACK</button>
                     </Link>
                 </div>
             </div>

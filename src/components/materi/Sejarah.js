@@ -4,8 +4,8 @@ import FermatAndPascal from '../../assets/img/fermat-&-pascal.jpg'
 
 const Sejarah = () => {
     return (
-        <div className="w-full rounded p-4 lg:border border-teal-600">
-            <div className="bg-teal-700 text-white text-lg font-medium p-3 mb-6 rounded-md" >
+        <div className="w-full rounded p-4 lg:border shadow-md border-myColor-second">
+            <div className="bg-myColor-second text-gray-100 text-lg font-medium p-3 mb-6 rounded-md" >
                 Darimana Peluang Berasal?
             </div>
             <div className="w-full flex justify-center mb-6">
@@ -32,12 +32,12 @@ const Sejarah = () => {
             </div>
             <div className="flex mt-6 justify-center">
                 <div>
-                    <button className="btn-prev-next rounded-l hover:bg-teal-700">
+                    <button className="btn-prev-next rounded-l">
                         Prev
                     </button>
                 </div>
                 <div>
-                    <button className="btn-prev-next rounded-r hover:bg-teal-700">
+                    <button className="btn-prev-next rounded-r">
                         Next
                     </button>
                 </div>

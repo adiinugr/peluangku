@@ -18,6 +18,13 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      myColor: {
+        first: '#353447',
+        second: '#00897d',
+        third: '#eaae6f',
+        fourth: '#fbf5e7',
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',

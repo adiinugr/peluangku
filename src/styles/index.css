@@ -3,12 +3,12 @@
 @tailwind components;
 /* text */
 .h1 {
-  @apply text-3xl font-bold mb-3;
+  @apply text-4xl font-bold mb-3;
 }
 
 /* button */
 .btn {
-  @apply bg-teal-600 font-bold rounded-full mt-4 py-4 px-8 shadow-lg uppercase tracking-wider text-white;
+  @apply bg-myColor-second font-bold rounded-full mt-4 py-4 px-8 shadow-lg uppercase tracking-wider text-gray-100;
 }
 
 .btn:focus {
@@ -24,7 +24,7 @@
 }
 
 .btn-prev-next {
-  @apply bg-teal-500 text-white font-medium py-2 px-4;
+  @apply bg-myColor-second text-gray-100 font-medium py-2 px-4;
 }
 
 .btn-prev-next:focus {

@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import ArtiPeluang from './materi/ArtiPeluang'
 import RuangSampel from './materi/RuangSampel'
 import Kejadian from './materi/Kejadian'
+import Peluang from './materi/Peluang'
 
 const Materi = () => {
     return (
@@ -15,6 +16,7 @@ const Materi = () => {
                         <Route path="/materi/arti-peluang" component={ArtiPeluang} />
                         <Route path="/materi/ruang-sampel" component={RuangSampel} />
                         <Route path="/materi/kejadian" component={Kejadian} />
+                        <Route path="/materi/peluang" component={Peluang} />
                     </Switch>
                 </div>
             </div>

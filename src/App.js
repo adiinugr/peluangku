@@ -6,8 +6,12 @@ import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import './styles/tailwind.css'
 import Materi from './components/Materi';
+import QuizLayout from './components/QuizLayout';
+import Happy from './components/quiz/result/Happy';
+import Sad from './components/quiz/result/Sad';
 
 function App() {
+
   return (
     <Router>
       <div className="flex flex-col h-full md:h-screen">
@@ -17,6 +21,9 @@ function App() {
             <Route exact path='/' component={Jumbotron} />
             <Route path='/menu-belajar' component={MenuBelajar} />
             <Route path='/materi' component={Materi} />
+            <Route path='/quiz' component={QuizLayout} />
+            <Route path='/happy' component={Happy} />
+            <Route path='/sad' component={Sad} />
           </Switch>
         </div>
       </div>
