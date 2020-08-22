@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8276bca474e081bcd92a0e4749c1d55a",
+    "revision": "1c29e5b0a37c4cbaa44e801f0629eff3",
     "url": "/peluangku/index.html"
   },
   {
-    "revision": "3a6da6105c788a144a05",
+    "revision": "029d670333a96baad855",
     "url": "/peluangku/static/css/main.9a1324a3.chunk.css"
   },
   {
-    "revision": "11ec7ba16d34e96fffdd",
-    "url": "/peluangku/static/js/2.03ccb159.chunk.js"
+    "revision": "944cb806d2c9affcc3b9",
+    "url": "/peluangku/static/js/2.2c9a2958.chunk.js"
   },
   {
     "revision": "1937a0fc6634269e5f47f8181e27fdc7",
-    "url": "/peluangku/static/js/2.03ccb159.chunk.js.LICENSE.txt"
+    "url": "/peluangku/static/js/2.2c9a2958.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a6da6105c788a144a05",
-    "url": "/peluangku/static/js/main.8f4cc8c0.chunk.js"
+    "revision": "029d670333a96baad855",
+    "url": "/peluangku/static/js/main.4ef3d235.chunk.js"
   },
   {
     "revision": "61f4f265cb656cfdc90a",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "947be6f71644020078a3670c9a1040f1",
     "url": "/peluangku/static/media/dadu.947be6f7.jpg"
+  },
+  {
+    "revision": "71479f4651c143f48f326008a594244d",
+    "url": "/peluangku/static/media/faq.71479f46.svg"
   },
   {
     "revision": "ab7a83bb3f56cf9a6fafd95f72f5c80e",
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a9fdf067c5428c37786c2e5c09d705c5",
     "url": "/peluangku/static/media/paper-test.a9fdf067.jpg"
+  },
+  {
+    "revision": "3e601703770217fb6828059728f3d8f5",
+    "url": "/peluangku/static/media/profile.3e601703.svg"
   },
   {
     "revision": "ae23317525f6e951603b82f785bcea36",
