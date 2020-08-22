@@ -1,7 +1,7 @@
 {
   "name": "peluangku",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://adiinugr.github.io/peluangku",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -15,10 +15,8 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.4.1",
     "react-mathjax": "^1.0.1",
-    "react-mathjax2": "0.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.2",
-    "react-scroll": "^1.8.0",
     "react-slide-routes": "^0.13.0",
     "react-transition-group": "^4.4.1",
     "styled-components": "^5.1.1"
