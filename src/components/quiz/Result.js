@@ -10,7 +10,7 @@ function Result(props) {
             className="container result"
             component="div"
         >
-            {props.quizResult < 2 ? <Sad benar={props.quizResult} /> : <Happy benar={props.quizResult} />}
+            {props.quizResult < 4 ? <Sad benar={props.quizResult} /> : <Happy benar={props.quizResult} />}
         </div>
     );
 }

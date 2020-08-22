@@ -20,7 +20,7 @@ const RuangSampel = () => {
                     </div>
                     <br />
                     <p>
-                        Karena ruang sampel berbentuk himpunan, maka ke depan kita akan menuliskannya dengan notasi himpunan. Misal kita diminta untuk menentuan ruang sampel dari pelemparan <strong>sebuah koin</strong>, maka jawabanya adalah <strong>S = &#123; A, G &#125;</strong>. A berati angka dan G berarti gambar. Sedangkan ruang sampel dari pelemparan <strong>sebuah dadu</strong> adalah <strong>S = &#123; 1, 2, 3, 4, 5, 6 &#125;</strong>. Dari sini bisa dipahami bahwa ruang sampel bisa berbeda-beda bergantung dari kejadiannya.
+                        Karena ruang sampel berbentuk himpunan, maka ke depan kita akan menuliskannya dengan notasi himpunan. Misal kita diminta untuk menentuan ruang sampel dari pelemparan <strong>sebuah koin</strong>, maka jawabanya adalah <strong>S = &#123;A, G&#125;</strong>. A berati angka dan G berarti gambar. Sedangkan ruang sampel dari pelemparan <strong>sebuah dadu</strong> adalah <strong>S = &#123;1, 2, 3, 4, 5, 6&#125;</strong>. Dari sini bisa dipahami bahwa ruang sampel bisa berbeda-beda bergantung dari kejadiannya.
                     </p>
                 </div>
             }

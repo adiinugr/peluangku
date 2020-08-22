@@ -44,7 +44,7 @@ const TestArtiPeluang = () => {
                     <form onSubmit={handleSubmit(onSubmit)}>
                         {alertMessage}
                         <div className=" font-medium text-gray-800 mb-4">
-                            Manakah berikut ini kejadian yang mempunyai peluang 1?
+                            Berikut manakah ini kejadian yang mempunyai peluang 1?
                         </div>
                         <div className="text-gray-800">
                             <label className=" items-center block">

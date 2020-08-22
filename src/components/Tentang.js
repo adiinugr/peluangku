@@ -1,7 +1,7 @@
 import React from 'react'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 
-import Celebration from '../assets/svg/celebration.svg'
+import Profile from '../assets/svg/profile.svg'
 import { Link } from 'react-router-dom'
 
 const Tentang = () => {
@@ -17,7 +17,7 @@ const Tentang = () => {
                         </div>
                         <div className="flex flex-col items-center md:items-start md:flex-row">
                             <div className="w-1/2 md:w-1/3">
-                                <img src={Celebration} alt="" />
+                                <img src={Profile} alt="" />
                             </div>
                             <div className="w-full md:w-2/3 mt-6 lg:mt-0 lg:ml-4">
                                 <p className="mb-2">

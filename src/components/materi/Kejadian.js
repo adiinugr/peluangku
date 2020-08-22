@@ -19,11 +19,11 @@ const Kejadian = () => {
                     </div>
                     <br />
                     <p>
-                        Misal kita melempar sebuah koin, hasil apakah yang kita inginkan untuk terjadi? Atau dalam hal ini sisi manakah yang kita harapkan muncul? Jika kita ingin muncul gambar berarti kejadiannya adalah gambar. Dengan notasi matematika kita bisa menulis <strong>A = &#123; G &#125;</strong>. A merupakan simbol untuk kejadian walaupun ini tidak paten. Di beberapa buku ada yang menyebut E.
+                        Misal kita melempar sebuah koin, hasil apakah yang kita inginkan untuk terjadi? Atau dalam hal ini sisi manakah yang kita harapkan muncul? Jika kita ingin muncul gambar berarti kejadiannya adalah gambar. Dengan notasi matematika kita bisa menulis <strong>A = &#123;G&#125;</strong>. A merupakan simbol untuk kejadian walaupun ini tidak paten. Di beberapa buku ada yang menyebut E.
                 </p>
                     <br />
                     <p>
-                        Selanjutnya bisa ditebak, apa bila kita menginginkan muncul mata dadu ganjil pada pelemparan sebuah dadu maka kejadiannya adalah <strong>A = &#123; 1, 3, 5 &#125;</strong>. Mudah bukan pembahasan tentang kejadian? Selanjutnya kita akan belajar bagaimana menentukan peluang suatu kejadian.
+                        Selanjutnya bisa ditebak, apa bila kita menginginkan muncul mata dadu ganjil pada pelemparan sebuah dadu maka kejadiannya adalah <strong>A = &#123;1, 3, 5&#125;</strong>. Mudah bukan pembahasan tentang kejadian? Selanjutnya kita akan belajar bagaimana menentukan peluang suatu kejadian.
                     </p>
                 </div>
             }

@@ -24,7 +24,15 @@ const ArtiPeluang = () => {
                     </div>
                     <br />
                     <p>
-                        Ini bukan kesombongan tapi sebuah sikap optimis. Sehubungan dengan itu, kita pasti sering dihadapkan dengan sebuah pilihan. Biasanya kita dengan mudah bilang <em>"Pilih yang ini aja"</em> atau <em>"Yang itu lebih bagus"</em>. Namun apabila kita seorang pelaku bisnis tentu tidak bisa mengambil keputusan hanya dengan bermodal <em>feeling</em>. Nah, di sinilah kita gunakan konsep peluang. Dengan peluang kita bisa mendapatkan hasil yang akurat karena prosesnya menggunakan perhitungan secara matematis. Selanjutnya, hasil peluang ini kita gunakan sebagai dasar dari pengambilan keputusan.
+                        Ini bukan kesombongan tapi sebuah sikap optimis.
+                    </p>
+                    <br />
+                    <p>
+                        Sehubungan dengan itu, kita pasti sering dihadapkan dengan sebuah pilihan. Biasanya kita dengan mudah bilang <em>"Pilih yang ini aja"</em> atau <em>"Yang itu lebih bagus"</em>. Namun apabila kita seorang pelaku bisnis tentu tidak bisa mengambil keputusan hanya dengan bermodal <em>feeling</em>.
+                    </p>
+                    <br />
+                    <p>
+                        Nah, di sinilah kita gunakan konsep peluang. Dengan peluang kita bisa mendapatkan hasil yang akurat karena prosesnya menggunakan perhitungan secara matematis. Selanjutnya, hasil peluang ini kita gunakan sebagai dasar dari pengambilan keputusan.
                     </p>
                 </div>
             }

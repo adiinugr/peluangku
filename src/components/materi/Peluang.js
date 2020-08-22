@@ -4,8 +4,8 @@ import MathJax from 'react-mathjax'
 import Dadu from '../../assets/img/dadu.jpg'
 import MateriComp from './MateriComp'
 
-const tex = `P(A)=\\frac{N(A)}{N(S)}`
-const tex2 = `P(A)=\\frac{N(A)}{N(S)}=\\frac{1}{6}`
+const tex = `P(A)=\\frac{n(A)}{n(S)}`
+const tex2 = `P(A)=\\frac{n(A)}{n(S)}=\\frac{1}{6}`
 const tex3 = `\\frac{1}{6}`
 
 const Peluang = () => {
@@ -33,7 +33,7 @@ const Peluang = () => {
                     </div>
                     <br />
                     <p>
-                        Contoh termudah adalah ketika kita melempar sebuah dadu. Berapakah kira-kira peluang muncul mata dadu 6? Untuk menjawab pertanyaan tersebut kita perlu menentukan ruang sampel dan kejadiannya. Ruang sampelnya <span className="font-medium">S = &#123; 1, 2, 3, 4, 5, 6 &#125;</span> dan kejadiannya <span className="font-medium">A = &#123; 6 &#125;</span>. Maka dengan mudah dapat ditentukan <span className="font-medium">n(A) = 1</span> dan <span className="font-medium">n(S) = 6</span>. Sehingga diperoleh
+                        Contoh termudah adalah ketika kita melempar sebuah dadu. Berapakah kira-kira peluang muncul mata dadu 6? Untuk menjawab pertanyaan tersebut kita perlu menentukan ruang sampel dan kejadiannya. Ruang sampelnya <span className="font-medium">S = &#123;1, 2, 3, 4, 5, 6&#125;</span> dan kejadiannya <span className="font-medium">A = &#123;6&#125;</span>. Maka dengan mudah dapat ditentukan <span className="font-medium">n(A) = 1</span> dan <span className="font-medium">n(S) = 6</span>. Sehingga diperoleh
                     </p>
                     <br />
                     <div className="text-center">
