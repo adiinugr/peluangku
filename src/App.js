@@ -10,6 +10,8 @@ import QuizLayout from './components/QuizLayout';
 import NotFound from './components/NotFound';
 import Test from './components/Test';
 import FinishMateri from './components/FinishMateri';
+import Tentang from './components/Tentang';
+import Panduan from './components/Panduan';
 
 function App() {
 
@@ -25,6 +27,9 @@ function App() {
             <Route path='/test' component={Test} />
             <Route path='/quiz' component={QuizLayout} />
             <Route path='/finish-materi' component={FinishMateri} />
+            <Route path='/tentang' component={Tentang} />
+            <Route path='/panduan' component={Panduan} />
+            <Route path='/peluangku' component={Jumbotron} />
             <Route path='*' component={NotFound} />
           </Switch>
         </div>

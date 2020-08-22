@@ -17,7 +17,7 @@ function Header() {
 
     return (
         <div
-            className="flex items-center w-full justify-between flex-wrap bg-myColor-second p-6 fixed"
+            className="flex items-center w-full justify-between flex-wrap z-10 bg-myColor-second p-6 fixed"
         >
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <CasinoIcon fontSize="large" />

@@ -1,7 +1,12 @@
 import React from 'react'
+import MathJax from 'react-mathjax'
 
 import Dadu from '../../assets/img/dadu.jpg'
 import MateriComp from './MateriComp'
+
+const tex = `P(A)=\\frac{N(A)}{N(S)}`
+const tex2 = `P(A)=\\frac{N(A)}{N(S)}=\\frac{1}{6}`
+const tex3 = `\\frac{1}{6}`
 
 const Peluang = () => {
     return (
@@ -15,6 +20,9 @@ const Peluang = () => {
                     </p>
                     <br />
                     <div className="text-center">
+                        <MathJax.Provider>
+                            <MathJax.Node formula={tex} />
+                        </MathJax.Provider>
                     </div>
                     <br />
                     <p>Dengan:</p>
@@ -29,12 +37,15 @@ const Peluang = () => {
                     </p>
                     <br />
                     <div className="text-center">
-
-
+                        <MathJax.Provider>
+                            <MathJax.Node formula={tex2} />
+                        </MathJax.Provider>
                     </div>
                     <br />
                     <p>
-                        Jadi, peluang muncul mata dadu 6 pada pelemparan sebuah dadu adalah. Dari sini bisa dipahami bahwa nilai dari peluang bergantung pada kejadian dan ruang sampelnya. Bagaimana? Tidak sulit kan belajar peluang?
+                        <MathJax.Provider>
+                            Jadi, peluang muncul mata dadu 6 pada pelemparan sebuah dadu adalah <MathJax.Node inline formula={tex3} />. Dari sini bisa dipahami bahwa nilai dari peluang bergantung pada kejadian dan ruang sampelnya. Bagaimana? Tidak sulit bukan belajar peluang?
+                         </MathJax.Provider>
                     </p>
                 </div>
             }
