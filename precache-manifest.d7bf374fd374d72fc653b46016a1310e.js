@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c29e5b0a37c4cbaa44e801f0629eff3",
+    "revision": "7d03a728fdbfa11d1ac25115b97a47fd",
     "url": "/peluangku/index.html"
   },
   {
-    "revision": "029d670333a96baad855",
+    "revision": "40b32e7daf3392f4c1b7",
     "url": "/peluangku/static/css/main.9a1324a3.chunk.css"
   },
   {
-    "revision": "944cb806d2c9affcc3b9",
-    "url": "/peluangku/static/js/2.2c9a2958.chunk.js"
+    "revision": "bb40cc0dc3cf704dd2cf",
+    "url": "/peluangku/static/js/2.53b254f7.chunk.js"
   },
   {
     "revision": "1937a0fc6634269e5f47f8181e27fdc7",
-    "url": "/peluangku/static/js/2.2c9a2958.chunk.js.LICENSE.txt"
+    "url": "/peluangku/static/js/2.53b254f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "029d670333a96baad855",
-    "url": "/peluangku/static/js/main.4ef3d235.chunk.js"
+    "revision": "40b32e7daf3392f4c1b7",
+    "url": "/peluangku/static/js/main.4ef03c9c.chunk.js"
   },
   {
     "revision": "61f4f265cb656cfdc90a",
