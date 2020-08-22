@@ -13,10 +13,13 @@ import FinishMateri from './components/FinishMateri';
 import Tentang from './components/Tentang';
 import Panduan from './components/Panduan';
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="flex flex-col h-full md:h-screen">
         <Header />
         <div style={{ marginTop: "5rem" }}>
