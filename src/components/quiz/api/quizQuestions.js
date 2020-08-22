@@ -1,10 +1,56 @@
 const quizQuestions = [
     {
-        question: "1+1 = ...",
+        question: "Pada pelemparan sebuah dadu, berapa peluang muncul mata dadu prima?",
         answers: [
             {
                 type: "benar",
-                content: "2"
+                content: "1/2"
+            },
+            {
+                type: "salah",
+                content: "1/6"
+            },
+            {
+                type: "salah",
+                content: "2/6"
+            },
+            {
+                type: "salah",
+                content: "1"
+            }
+        ]
+    },
+    {
+        question: "Sebuah dadu dilempar satu kali. Peluang muncul mata dadu kurang dari enam adalah ....",
+        answers: [
+            {
+                type: "benar",
+                content: "5/6"
+            },
+            {
+                type: "salah",
+                content: "1/2"
+            },
+            {
+                type: "salah",
+                content: "2/3"
+            },
+            {
+                type: "salah",
+                content: "1/6"
+            }
+        ]
+    },
+    {
+        question: "Dua buah koin dilempar bersama-sama. Berapa peluang muncul keduanya bersisi sama?",
+        answers: [
+            {
+                type: "benar",
+                content: "1/2"
+            },
+            {
+                type: "salah",
+                content: "1/4"
             },
             {
                 type: "salah",
@@ -12,75 +58,49 @@ const quizQuestions = [
             },
             {
                 type: "salah",
-                content: "3"
+                content: "0"
             }
         ]
     },
     {
-        question: "2+2=...",
+        question: "Tiga mata uang logam dilempar bersama. Berapa peluang muncul dua sisi gambar dan satu sisi angka?",
         answers: [
             {
-                type: "salah",
-                content: "1"
-            },
-            {
                 type: "benar",
-                content: "4"
+                content: "3/8"
             },
             {
                 type: "salah",
-                content: "2"
+                content: "1/2"
+            },
+            {
+                type: "salah",
+                content: "1/4"
+            },
+            {
+                type: "salah",
+                content: "2/8"
             }
         ]
     },
     {
-        question: "3+3=...",
+        question: "Dari seperangkat kartu bridge diambil sebuah kartu. Peluang terambilnya kartu as adalah ....",
         answers: [
             {
                 type: "benar",
-                content: "6"
+                content: "1/13"
             },
             {
                 type: "salah",
-                content: "1"
+                content: "4/13"
             },
             {
                 type: "salah",
-                content: "2"
-            }
-        ]
-    },
-    {
-        question: "4+4=...",
-        answers: [
-            {
-                type: "benar",
-                content: "8"
+                content: "1/26"
             },
             {
                 type: "salah",
-                content: "4"
-            },
-            {
-                type: "salah",
-                content: "6"
-            }
-        ]
-    },
-    {
-        question: "5+5=...",
-        answers: [
-            {
-                type: "benar",
-                content: "10"
-            },
-            {
-                type: "salah",
-                content: "2"
-            },
-            {
-                type: "salah",
-                content: "4"
+                content: "4/26"
             }
         ]
     }

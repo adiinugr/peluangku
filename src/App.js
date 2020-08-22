@@ -7,8 +7,9 @@ import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import './styles/tailwind.css'
 import Materi from './components/Materi';
 import QuizLayout from './components/QuizLayout';
-import Happy from './components/quiz/result/Happy';
-import Sad from './components/quiz/result/Sad';
+import NotFound from './components/NotFound';
+import Test from './components/Test';
+import FinishMateri from './components/FinishMateri';
 
 function App() {
 
@@ -21,9 +22,10 @@ function App() {
             <Route exact path='/' component={Jumbotron} />
             <Route path='/menu-belajar' component={MenuBelajar} />
             <Route path='/materi' component={Materi} />
+            <Route path='/test' component={Test} />
             <Route path='/quiz' component={QuizLayout} />
-            <Route path='/happy' component={Happy} />
-            <Route path='/sad' component={Sad} />
+            <Route path='/finish-materi' component={FinishMateri} />
+            <Route path='*' component={NotFound} />
           </Switch>
         </div>
       </div>

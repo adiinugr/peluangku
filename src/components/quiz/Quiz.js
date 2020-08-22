@@ -27,7 +27,7 @@ const Quiz = props => {
                     total={props.questionTotal}
                 />
             </div>
-            <div className="bg-myColor-first text-gray-100 font-medium mt-4 p-4 rounded-md text-xl text-center">
+            <div className="bg-teal-100 text-gray-700 font-medium mt-4 p-4 border-t border-b border-gray-700 text-lg text-center">
                 <Question content={props.question} />
             </div>
             <div className="mt-4">

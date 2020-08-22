@@ -39,6 +39,14 @@
   outline: none;
 }
 
+.myInput {
+  @apply w-full border border-myColor-second appearance-none rounded py-2 px-3 text-gray-700 leading-none;
+}
+
+.myInput:focus {
+  outline: none;
+}
+
 .btn-md {
   @apply bg-blue-600 font-bold rounded-full mt-6 py-3 px-6 shadow-lg uppercase tracking-wider text-white;
 }

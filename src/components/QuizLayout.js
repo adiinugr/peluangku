@@ -93,7 +93,7 @@ class QuizLayout extends Component {
     }
 
     setResults(result) {
-        if (this.state.answersCount > 0) {
+        if (this.state.answersCount.benar >= 0) {
             this.setState({ result: this.state.answersCount.benar });
         } else {
             this.setState({ result: 0 });
@@ -120,7 +120,7 @@ class QuizLayout extends Component {
     render() {
         return (
             <div>
-                <div className="p-2 my-4 text-center mx-auto text-myColor-first text-3xl border-0 border-myColor-first w-48 font-semibold" style={{ borderBottomWidth: "0.20rem" }}>
+                <div className="p-2 my-4 text-center mx-auto text-gray-700 text-2xl lg:text-3xl border-0 border-gray-700 w-48 font-semibold" style={{ borderBottomWidth: "0.20rem" }}>
                     MINI QUIZ
                 </div>
                 <div className="lg:py-2 p-6 lg:px-56">

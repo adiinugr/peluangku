@@ -688,6 +688,30 @@ video {
   outline: none;
 }
 
+.myInput {
+  width: 100%;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #00897d;
+  border-color: rgba(0, 137, 125, var(--border-opacity));
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  line-height: 1;
+}
+
+.myInput:focus {
+  outline: none;
+}
+
 .btn-md {
   --bg-opacity: 1;
   background-color: #3182ce;

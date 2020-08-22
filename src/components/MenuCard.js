@@ -17,7 +17,11 @@ const MenuCard = (props) => {
                     </div>
                     <div>
                         <Link to={props.link}>
-                            <button className="btn py-3 px-6 text-xs m-6">{props.btn}</button>
+                            {props.disable ?
+                                <button disabled className="btn py-3 px-6 text-xs m-6 bg-gray-600 cursor-not-allowed">{props.btn}</button>
+                                :
+                                <button className="btn py-3 px-6 text-xs m-6">{props.btn}</button>
+                            }
                         </Link>
                     </div>
                 </div>
