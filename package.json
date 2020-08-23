@@ -2,7 +2,6 @@
   "name": "peluangku",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://adiinugr.github.io/peluangku",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
