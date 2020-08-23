@@ -41,12 +41,14 @@ function Header() {
             >
                 <div className="text-md lg:flex-grow text-gray-100 ">
                     <Link
+                        onClick={toggleMenu}
                         to="/panduan"
                         className="block mt-4 lg:inline-block lg:mt-0 mr-4"
                     >
                         Panduan
                     </Link>
                     <Link
+                        onClick={toggleMenu}
                         to="/tentang"
                         className="block mt-4 lg:inline-block lg:mt-0 mr-4"
                     >
