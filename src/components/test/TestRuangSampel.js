@@ -46,7 +46,7 @@ const TestRuangSampel = () => {
                     <form onSubmit={handleSubmit(onSubmit)}>
                         {alertJawaban}
                         <div className=" font-medium text-gray-800 mb-2">
-                            Manakah yang merupakan ruang sampel pelemparan tiga buah dadu secara bersamaan?
+                            Manakah yang merupakan ruang sampel pelemparan tiga buah koin secara bersamaan?
                         </div>
                         <div className="text-gray-800">
                             <label className=" items-center block">
